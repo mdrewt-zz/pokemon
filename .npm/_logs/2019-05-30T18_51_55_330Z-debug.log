@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'build' ]
+2 info using npm@6.9.0
+3 info using node@v12.3.1
+4 verbose config Skipping project config: /home/rails/.npmrc. (matches userconfig)
+5 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+6 info lifecycle pokemon@1.0.0~prebuild: pokemon@1.0.0
+7 info lifecycle pokemon@1.0.0~build: pokemon@1.0.0
+8 verbose lifecycle pokemon@1.0.0~build: unsafe-perm in lifecycle true
+9 verbose lifecycle pokemon@1.0.0~build: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/rails/node_modules/.bin:/usr/local/bundle/bin:/usr/local/bundle/gems/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10 verbose lifecycle pokemon@1.0.0~build: CWD: /home/rails
+11 silly lifecycle pokemon@1.0.0~build: Args: [ '-c', 'webpack --mode=development --config webpack.config.js' ]
+12 silly lifecycle pokemon@1.0.0~build: Returned: code: 2  signal: null
+13 info lifecycle pokemon@1.0.0~build: Failed to exec build script
+14 verbose stack Error: pokemon@1.0.0 build: `webpack --mode=development --config webpack.config.js`
+14 verbose stack Exit status 2
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:301:16)
+14 verbose stack     at EventEmitter.emit (events.js:200:13)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+14 verbose stack     at ChildProcess.emit (events.js:200:13)
+14 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+15 verbose pkgid pokemon@1.0.0
+16 verbose cwd /home/rails
+17 verbose Linux 4.9.125-linuxkit
+18 verbose argv "/usr/bin/node" "/usr/bin/npm" "run" "build"
+19 verbose node v12.3.1
+20 verbose npm  v6.9.0
+21 error code ELIFECYCLE
+22 error errno 2
+23 error pokemon@1.0.0 build: `webpack --mode=development --config webpack.config.js`
+23 error Exit status 2
+24 error Failed at the pokemon@1.0.0 build script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 2, true ]

@@ -1,9 +1,8 @@
 <% if current_user %>
   <p id='notice'><%= notice %></p>
-  <h1>Example</h1>
-  <p>Lorem ipsum …</p>
 
-  <main id="root">Rails backend test message</main>
+  <div id="game"></div>
+  <div id="chat"></div>
 <% else %>
   <%= link_to 'Sign Up', signup_path %> or
   <%= link_to 'Log In', login_path %>
