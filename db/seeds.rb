@@ -38,7 +38,7 @@ move_tackle = Move.create_with(
 ).find_or_create_by(name: 'Tackle')
 
 users = User.all
-user.each do |user|
+users.each do |user|
   if user.pokemon.empty?
     Pokemon.create(
       level: 1,
